@@ -1,0 +1,5 @@
+The task is to develop a function that filters unwanted audio streams from binary video file.
+
+The problem works with binary files that represent video data. The format is inspired by standard mkv file format, however, it is significantly simplified for the purpose of this homework. Moreover, the homework is divided into mandatory, optional and bonus tests.
+
+A video file shall store both image stream and audio stream(s) information. We assume that the video contains exactly one image stream, however, there might be more audio streams in the video filer (such as language variants). Since the video file is often streamed, the images and audio streams must be physically interleaved in the file. An example is per-frame interleaving, where there is one image followed by a short portion the audio stream (or a short portion of all available audio streams if there is more than one audio stream present).
